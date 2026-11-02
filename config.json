@@ -1,0 +1,21 @@
+{
+  "start_date": "2021-01-01",
+  "end_date": "2025-12-31",
+  "return_frequency": "daily",
+  "rolling_window": 126,
+  "market_ticker": "^GSPC",
+  "risk_free_series": "DTB3",
+  "stocks": {
+    "AAPL": "Technology",
+    "JPM": "Financials",
+    "JNJ": "Health Care",
+    "XOM": "Energy",
+    "WMT": "Consumer Staples",
+    "CAT": "Industrials",
+    "NEE": "Utilities",
+    "AMZN": "Consumer Discretionary",
+    "PLD": "Real Estate",
+    "T": "Communication Services"
+  }
+}
+

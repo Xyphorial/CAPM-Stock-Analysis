@@ -1,0 +1,281 @@
+
+================================================================================
+AAPL
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            AAPL_EXCESS   R-squared:                       0.286
+Model:                            OLS   Adj. R-squared:                  0.286
+Method:                 Least Squares   F-statistic:                     522.2
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):           1.91e-97
+Time:                        21:16:56   Log-Likelihood:                 4257.8
+No. Observations:                1303   AIC:                            -8512.
+Df Residuals:                    1301   BIC:                            -8501.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0004      0.000     -1.586      0.113      -0.001    9.59e-05
+MKT_EXCESS     0.5367      0.023     22.852      0.000       0.491       0.583
+==============================================================================
+Omnibus:                        0.894   Durbin-Watson:                   2.008
+Prob(Omnibus):                  0.639   Jarque-Bera (JB):                0.910
+Skew:                          -0.064   Prob(JB):                        0.634
+Kurtosis:                       2.977   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+JPM
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             JPM_EXCESS   R-squared:                       0.393
+Model:                            OLS   Adj. R-squared:                  0.393
+Method:                 Least Squares   F-statistic:                     842.8
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):          2.80e-143
+Time:                        21:16:56   Log-Likelihood:                 4300.0
+No. Observations:                1303   AIC:                            -8596.
+Df Residuals:                    1301   BIC:                            -8586.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       9.179e-05      0.000      0.371      0.711      -0.000       0.001
+MKT_EXCESS     0.6601      0.023     29.031      0.000       0.616       0.705
+==============================================================================
+Omnibus:                        3.612   Durbin-Watson:                   1.969
+Prob(Omnibus):                  0.164   Jarque-Bera (JB):                3.679
+Skew:                           0.122   Prob(JB):                        0.159
+Kurtosis:                       2.907   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+JNJ
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             JNJ_EXCESS   R-squared:                       0.460
+Model:                            OLS   Adj. R-squared:                  0.460
+Method:                 Least Squares   F-statistic:                     1110.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):          1.59e-176
+Time:                        21:16:56   Log-Likelihood:                 4301.1
+No. Observations:                1303   AIC:                            -8598.
+Df Residuals:                    1301   BIC:                            -8588.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0003      0.000     -1.405      0.160      -0.001       0.000
+MKT_EXCESS     0.7570      0.023     33.321      0.000       0.712       0.802
+==============================================================================
+Omnibus:                        2.251   Durbin-Watson:                   1.981
+Prob(Omnibus):                  0.325   Jarque-Bera (JB):                2.290
+Skew:                           0.031   Prob(JB):                        0.318
+Kurtosis:                       3.196   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+XOM
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             XOM_EXCESS   R-squared:                       0.518
+Model:                            OLS   Adj. R-squared:                  0.518
+Method:                 Least Squares   F-statistic:                     1398.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):          2.18e-208
+Time:                        21:16:56   Log-Likelihood:                 4251.9
+No. Observations:                1303   AIC:                            -8500.
+Df Residuals:                    1301   BIC:                            -8489.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0006      0.000      2.503      0.012       0.000       0.001
+MKT_EXCESS     0.8821      0.024     37.388      0.000       0.836       0.928
+==============================================================================
+Omnibus:                        3.603   Durbin-Watson:                   1.968
+Prob(Omnibus):                  0.165   Jarque-Bera (JB):                3.633
+Skew:                          -0.084   Prob(JB):                        0.163
+Kurtosis:                       3.196   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+WMT
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             WMT_EXCESS   R-squared:                       0.608
+Model:                            OLS   Adj. R-squared:                  0.607
+Method:                 Least Squares   F-statistic:                     2016.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):          1.19e-266
+Time:                        21:16:56   Log-Likelihood:                 4309.9
+No. Observations:                1303   AIC:                            -8616.
+Df Residuals:                    1301   BIC:                            -8605.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0003      0.000     -1.205      0.228      -0.001       0.000
+MKT_EXCESS     1.0132      0.023     44.896      0.000       0.969       1.057
+==============================================================================
+Omnibus:                        0.061   Durbin-Watson:                   2.083
+Prob(Omnibus):                  0.970   Jarque-Bera (JB):                0.024
+Skew:                          -0.005   Prob(JB):                        0.988
+Kurtosis:                       3.018   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+CAT
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             CAT_EXCESS   R-squared:                       0.640
+Model:                            OLS   Adj. R-squared:                  0.639
+Method:                 Least Squares   F-statistic:                     2309.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):          1.41e-290
+Time:                        21:16:56   Log-Likelihood:                 4271.0
+No. Observations:                1303   AIC:                            -8538.
+Df Residuals:                    1301   BIC:                            -8528.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0001      0.000      0.458      0.647      -0.000       0.001
+MKT_EXCESS     1.1171      0.023     48.048      0.000       1.072       1.163
+==============================================================================
+Omnibus:                        0.251   Durbin-Watson:                   1.995
+Prob(Omnibus):                  0.882   Jarque-Bera (JB):                0.241
+Skew:                          -0.033   Prob(JB):                        0.886
+Kurtosis:                       2.998   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+NEE
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             NEE_EXCESS   R-squared:                       0.678
+Model:                            OLS   Adj. R-squared:                  0.677
+Method:                 Least Squares   F-statistic:                     2736.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):               0.00
+Time:                        21:16:56   Log-Likelihood:                 4266.5
+No. Observations:                1303   AIC:                            -8529.
+Df Residuals:                    1301   BIC:                            -8519.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0004      0.000     -1.487      0.137      -0.001       0.000
+MKT_EXCESS     1.2203      0.023     52.304      0.000       1.175       1.266
+==============================================================================
+Omnibus:                        2.298   Durbin-Watson:                   2.005
+Prob(Omnibus):                  0.317   Jarque-Bera (JB):                2.222
+Skew:                           0.099   Prob(JB):                        0.329
+Kurtosis:                       3.037   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+AMZN
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            AMZN_EXCESS   R-squared:                       0.723
+Model:                            OLS   Adj. R-squared:                  0.723
+Method:                 Least Squares   F-statistic:                     3400.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):               0.00
+Time:                        21:16:56   Log-Likelihood:                 4274.8
+No. Observations:                1303   AIC:                            -8546.
+Df Residuals:                    1301   BIC:                            -8535.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.608e-05      0.000      0.064      0.949      -0.000       0.001
+MKT_EXCESS     1.3519      0.023     58.313      0.000       1.306       1.397
+==============================================================================
+Omnibus:                        1.876   Durbin-Watson:                   1.922
+Prob(Omnibus):                  0.391   Jarque-Bera (JB):                1.781
+Skew:                           0.087   Prob(JB):                        0.410
+Kurtosis:                       3.053   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+PLD
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             PLD_EXCESS   R-squared:                       0.771
+Model:                            OLS   Adj. R-squared:                  0.771
+Method:                 Least Squares   F-statistic:                     4392.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):               0.00
+Time:                        21:16:56   Log-Likelihood:                 4326.6
+No. Observations:                1303   AIC:                            -8649.
+Df Residuals:                    1301   BIC:                            -8639.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.000     -0.762      0.446      -0.001       0.000
+MKT_EXCESS     1.4765      0.022     66.272      0.000       1.433       1.520
+==============================================================================
+Omnibus:                        5.956   Durbin-Watson:                   2.000
+Prob(Omnibus):                  0.051   Jarque-Bera (JB):                5.848
+Skew:                           0.156   Prob(JB):                       0.0537
+Kurtosis:                       3.101   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+================================================================================
+T
+================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               T_EXCESS   R-squared:                       0.766
+Model:                            OLS   Adj. R-squared:                  0.766
+Method:                 Least Squares   F-statistic:                     4263.
+Date:                Sat, 19 Sep 2026   Prob (F-statistic):               0.00
+Time:                        21:16:56   Log-Likelihood:                 4270.1
+No. Observations:                1303   AIC:                            -8536.
+Df Residuals:                    1301   BIC:                            -8526.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.000      0.874      0.382      -0.000       0.001
+MKT_EXCESS     1.5192      0.023     65.294      0.000       1.474       1.565
+==============================================================================
+Omnibus:                        1.212   Durbin-Watson:                   2.014
+Prob(Omnibus):                  0.545   Jarque-Bera (JB):                1.109
+Skew:                          -0.063   Prob(JB):                        0.574
+Kurtosis:                       3.067   Cond. No.                         91.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

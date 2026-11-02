@@ -1,0 +1,10 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+
+# Generated live-data results (tracked demo results are in demo_outputs/)
+outputs/
